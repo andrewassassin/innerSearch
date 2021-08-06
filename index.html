@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首頁</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+</head>
+
+<body>
+     <!-- input tag -->
+     <input id="searchbar" onkeyup="search_animal()" type="text"
+     name="search" placeholder="Search animals..">
+   
+ <!-- ordered list -->
+ <div id='list'></div>
+ <h1>陳名裔</h1>
+    <div>
+        <input type="text" method="put" id="search" placeholder="Search" value="">
+        <input type='submit' onclick="sendToPage();" value="搜尋" />
+    </div>
+<div class="tab-contnet container"> 
+    <div class="row">  
+        <div class="btn-group checkout-btn justify-content-center" role="group" id="tabs">
+            <div class="img1 col-md-3 ">
+                <img class="btn active w-75 " src="./images/008.jpg" alt="" >
+                    <div class="card-btns">
+                        <div class="card-btns-1">             
+                            <i class="fas fa-sort-down fa-3x fa"></i>               
+                        </div>
+                    </div>
+            </div>
+            <div class="img2 col-md-3 ">
+                <img class="btn w-75" src="./images/009.jpg" alt="" >
+                    <div class="card-btns">
+                        <div class="card-btns-2">
+                            <i class="fas fa-sort-down fa-3x fa " ></i>               
+                        </div>
+                    </div>
+            </div>
+            <div class="img3 col-md-3">
+                <img class="btn w-75 " src="./images/001.jpg" alt="" >
+                    <div class="card-btns ">
+                        <div class="card-btns-3 ">             
+                            <i class="fas fa-sort-down fa-3x fa "></i>              
+                        </div>
+                    </div>
+            </div>
+        </div> 
+    </div>
+    <div class="row justify-content-center">         
+        <div id="tab-inner" class="tabin col-md-8">
+            <!-- 第一分頁 -->
+            <div class="form-content container" >
+                <div class="row align-items-center">
+                    <img class="col-md-4 " src="./images/008.jpg" alt="" >
+                    <div class="col-md-8 py-5">
+                        <h3 class="title">近場聆聽、高頻精準</h3>
+                            <h4 class="name">KEF LSX</h4>
+                            <p>聽人聲的最佳選擇，高頻清晰，低頻圓潤</p>   
+                                   
+                    </div>
+                </div>
+            </div>
+            <!--  第二分頁 -->
+            <div class="form-content container" >
+                <div class="row align-items-center">
+                    <img class="col-md-4" src="./images/009.jpg" alt="" >
+                    <div class="col-md-8 py-5">
+                        <h3 class="title">中頻渾厚、可外接低音</h3>
+                            <h4 class="name">KEF LS50</h4>
+                            <p>創造家庭劇院的第一首選</p>   
+                                 
+                    </div>
+                </div>
+            </div>
+            <!-- 第三分頁 -->
+            <div class="form-content container" >
+                <div class="row align-items-center">
+                    <img class="col-md-4" src="./images/001.jpg" alt="" >
+                    <div class="col-md-8 py-5">
+                        <h3 class="title">琴瑟優美、影音兼備</h3>
+                            <h4 class="name">Edifier A100</h4>
+                            <p>高低頻銜接得宜、適合聽琴聲</p>     
+                                     
+                    </div>
+                </div>
+            </div>
+            <!-- 分頁結束 -->
+        </div>
+    </div>
+</div> 
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
